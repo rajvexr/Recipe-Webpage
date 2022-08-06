@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewpoint" content="width=device-width">
+        <title>How To Make Tea</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <h1>How To Make Tea</h1>
+            <img src="https://codeinstitute.s3-eu-west-1.amazonaws.com/5DCC/images/Content/oSVKMED.jpg" alt="A man drinking tea"
+            <p>Numerous studies have shown that a variety of teas may boost your immune system, fight off inflammation, 
+               and even ward off cancer and heart disease. While some brews provide more health advantages than others, 
+               there's plenty of evidence that regularly drinking tea can have a lasting impact on your wellness. </p>
+        </header>
+        <section id="ingrediants" onmouseover="ingrediantsHover()" onmouseout="ingrediantsNormal()">
+            <h2>Ingrediants <i class="fa fa-coffee" aria-hidden="true"></i> </h2>
+            <ul> 
+                <li>Tea Bag</li>
+                <li>Water</li>
+                <li>Milk - Dairy/Plant-based (Optional)</li>
+                <li>Sugar/Honey</li>
+            </ul>
+        </section>
+        <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+            <h2>Preparation <i class="fa fa-list" aria-hidden="true"></i> </h2>
+            <ol>
+                <li>Fill up the kettle with water</li>
+                <li>Boil the kettle</li>
+                <li>Place a teabag in your favourite mug</li>
+                <li>Pour boiling water into your favourite mug</li>
+                <li>Brew the tea for a few moments</li>
+                <li>Remove and dispose of the teabag</li>
+                <li>Add milk</li>
+                <li>Add sugar</li>
+                <li>Stir the tea</li>
+                <li>Enjoy the hot beverage</li>
+            </ol>
+        </section>
+        <footer>
+			<p>Copyright Rajveer Singh 2022<p> 
+
+        </footer>
+        </div>
+        <script>
+
+            function ingrediantsHover(){
+                document.getElementById('ingrediants').firstElementChild.firstElementChild.style.fontSize = "300%";
+            }
+
+            function ingrediantsNormal(){
+                document.getElementById('ingrediants').firstElementChild.firstElementChild.style.fontSize = "100%";
+
+            }
+
+            function preparationHover(){
+                document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = "300%";
+            }
+
+            function preparationNormal(){
+                document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = "100%";
+            }
+
+
+
+        </script>
+    </body>
+</html>
